@@ -115,7 +115,7 @@ Human Face
 Animals
 
 _Output for “Oil Painting of Marilyn Monroe”\(left\) versus the actual portrait of Marilyn Monroe\(right\)_
-https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp111.png
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp111.png)
 
 
 _“A cheetah and rabbit playing together”_
