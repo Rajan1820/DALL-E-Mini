@@ -26,7 +26,7 @@ The model that we work on is a mini version of DALL\-E which strips the bells an
 
 # Diffusion Models
 
-![](img/5Cpp10.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp10.png)
 
 Diffusion Models are a subclass of generative models\, which are used to produce new data\, frequently pictorial data
 
@@ -35,8 +35,8 @@ Diffusion models are trained by introducing Gaussian noise to training pictures 
 After that Diffusion models learn how to remove that noise to generate new images
 
 Learning to reverse the forward process can be reduced to learning to denoise the created noisy image into an estimation of the original data
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp11.png)
 
-![](img%5Cpp11.png)
 
 # DALL-E Architecture
 
@@ -45,8 +45,8 @@ DALLE uses an OpenAI model called CLIP\(Contrastive Language\-Image Pre\-trainin
 DALLE now freezes the CLIP model &  reverses the image\-caption encoding of CLIP learned previously\.The connection between captions and visual encodings is easier to understand in a higher dimensional space\.
 
 To perform the semantically correct image generation from visual encodings DALLE uses another model called GLIDE\(Guided Language\-to\-Image Diffusion for Generation and Editing\)\.
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp12.png)
 
-![](img%5Cpp12.png)
 
 To connect the textual semantics to visual semantics DALLE uses a model called “prior” which is Diffusion model\, that connects the textual encodings of image captions to image encodings of the semantically related output image\.
 
@@ -54,13 +54,13 @@ Converts the text description into tokens which then maps the CLIP text encoding
 
 A Penguin riding bicycle at the coliseum of rome\, Digital art oil painting
 
-![](img%5Cpp13.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp13.png)
 
 _Working of DALL\-E_
 
 # DALL-E Mini Architecture
 
-![](img%5Cpp14.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp14.png)
 
 Datasets used :  _[Conceptual Captions](https://github.com/google-research-datasets/conceptual-captions)_  \,  _[Conceptual 12M](https://github.com/google-research-datasets/conceptual-12m)_
 
@@ -86,17 +86,17 @@ VQGAN Decoder converts the image encodings into actual images
 
 CLIP is used to rank the images based on the cosine similarity between text prompt and the generated images
 
-![](img%5Cpp15.jpg)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp15.jpg)
 
 _Working of DALL\-E Mini_
 
 # Results on Custom Inputs
 
-![](img%5Cpp16.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp16.png)
 
-![](img%5Cpp17.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp17.png)
 
-![](img%5Cpp18.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp18.png)
 
 _“Eiffel tower at moon”_
 
@@ -105,18 +105,18 @@ _“Sunset at the Statue Of Liberty”_
 _“Sunrise view from the Empire State building”_
 
 # Limitations
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp19.png)
 
-![](img%5Cpp19.png)
+![alt text](https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp110.png)
 
-![](img%5Cpp110.png)
 
 Human Face
 
 Animals
 
 _Output for “Oil Painting of Marilyn Monroe”\(left\) versus the actual portrait of Marilyn Monroe\(right\)_
+https://github.com/Rajan1820/DALL-E-Mini/blob/master/img/pp111.png
 
-![](img%5Cpp111.png)
 
 _“A cheetah and rabbit playing together”_
 
