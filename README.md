@@ -26,7 +26,7 @@ The model that we work on is a mini version of DALL\-E which strips the bells an
 
 # Diffusion Models
 
-![](img%5Cpp10.png)
+![](img/5Cpp10.png)
 
 Diffusion Models are a subclass of generative models\, which are used to produce new data\, frequently pictorial data
 
